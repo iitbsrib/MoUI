@@ -2,7 +2,15 @@
     <h1>From Perception to Reasoning: Enhancing Vision-Language Models for Mobile UI Understanding</h1> 
 </div>
 
-We introduce MoUI, a series of lightweight models for understanding and grounding mobile UIs .
+We introduce MoUI, a series of lightweight models for understanding and grounding mobile UIs.
+
+## Model Checkbpoints
+
+|  Model  |                                       Checkpoint Weights                                        |
+| :-----: | :---------------------------------------------------------------------------------------------: |
+| MoUI-1B |  [Link](https://drive.google.com/drive/folders/19wV0SLfIPuFEVFpHighs-H7VqaFAfkvx?usp=sharing)   |
+| MoUI-2B |  [Link](https://drive.google.com/drive/folders/1Datxy7ZM8dmbQ3V2m3Pz3K1xxXc9H_oY?usp=sharing)   |
+| MoUI-4B | [Link](https://drive.google.com/drive/folders/1JTHV5s44sGyIGTSycR-dYcbFaMYxqT-B?usp=drive_link) |
 
 ## Introduction
 
@@ -68,9 +76,10 @@ Through extensive experiments, we demonstrate that our MoUI models achieve signi
 ## Todo
 
 - [ ] Release code for model training.
-- [ ] Release the `MoIQ` evaluation benchmark.
+- [x] Release the `MoIQ` evaluation benchmark.
 - [ ] Release code for data generation pipeline.
-- [ ] Release the `MoIT` dataset.
+- [x] Release the `MoUI` model checkpoints.
+- [x] Release the `MoIT` dataset.
 
 ## Cite
 
